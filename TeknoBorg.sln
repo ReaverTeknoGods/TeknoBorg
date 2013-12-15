@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TeknoBorgLoader", "TeknoBorgLoader\TeknoBorgLoader.vcxproj", "{C1264EE0-CCBD-4604-8AC2-EDB03A2260E3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{76DA178D-480C-448F-8568-E8A2BF203CF1} = {76DA178D-480C-448F-8568-E8A2BF203CF1}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TeknoBorgDLL", "TeknoBorgDLL\TeknoBorgDLL.vcxproj", "{76DA178D-480C-448F-8568-E8A2BF203CF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1264EE0-CCBD-4604-8AC2-EDB03A2260E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1264EE0-CCBD-4604-8AC2-EDB03A2260E3}.Debug|Win32.Build.0 = Debug|Win32
+		{C1264EE0-CCBD-4604-8AC2-EDB03A2260E3}.Release|Win32.ActiveCfg = Release|Win32
+		{C1264EE0-CCBD-4604-8AC2-EDB03A2260E3}.Release|Win32.Build.0 = Release|Win32
+		{76DA178D-480C-448F-8568-E8A2BF203CF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76DA178D-480C-448F-8568-E8A2BF203CF1}.Debug|Win32.Build.0 = Debug|Win32
+		{76DA178D-480C-448F-8568-E8A2BF203CF1}.Release|Win32.ActiveCfg = Release|Win32
+		{76DA178D-480C-448F-8568-E8A2BF203CF1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
